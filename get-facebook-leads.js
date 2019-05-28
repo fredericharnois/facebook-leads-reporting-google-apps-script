@@ -3,7 +3,7 @@
 *
 * Export Facebook Leads to Google Sheets
 *
-* Version: 0.1
+* Version: 0.1.1
 * Google Apps Script maintained by Frederic Harnois
 *
 **/
@@ -16,11 +16,11 @@ var SPREADSHEET_URL = 'INSERT_URL'
 // name of the sheet where the report will be
 var TAB_NAME = 'INSERT_TAB_NAME'
 
-// DCM profile ID
-var TOKEN = 'INSERT_PROFILE_ID'
+// user access token linked to a Facebook app
+var TOKEN = 'INSERT_TOKEN'
 
-// DCM report ID
-var FORM_ID = 'INSERT_REPORT_ID'
+// lead form ID
+var FORM_ID = 'INSERT_FORM_ID'
 
 // DO NOT MODIFY ANYTHING BELOW //
 
