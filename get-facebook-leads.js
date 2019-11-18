@@ -34,7 +34,7 @@ function getFacebookLeads() {
   sheet.clear();
   
   var facebookUrl = 
-    'https://graph.facebook.com/v4.0/' + FORM_ID +
+    'https://graph.facebook.com/v5.0/' + FORM_ID +
     '&access_token=' + TOKEN;
   var response = UrlFetchApp.fetch(facebookUrl);
   var url = JSON.parse(response).leadgen_export_csv_url;
